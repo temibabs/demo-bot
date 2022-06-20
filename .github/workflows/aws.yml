@@ -9,7 +9,7 @@ env:
   AWS_REGION: eu-west-1
   ECR_REPOSITORY: temi
   ECS_SERVICE: demo-bot-service
-  ECS_CLUSTER: new-staging
+  ECS_CLUSTER: staging
   ECS_TASK_DEFINITION: task-definition.json
   CONTAINER_NAME: demo-bot-container
 
