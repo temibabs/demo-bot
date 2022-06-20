@@ -19,11 +19,11 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": 4096,
+      "memory": 2048,
       "memoryReservation": 1024,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi:6899f01ea32eea2ed7f12fb560402e598bc57a04",
+      "image": "321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi:f922a34d619e47a1bdddae619c202826429c3236",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -44,7 +44,7 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "1024",
+  "memory": "4096",
   "taskRoleArn": "arn:aws:iam::321466487138:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
