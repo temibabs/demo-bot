@@ -44,7 +44,7 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "4096",
+  "memory": "1024",
   "taskRoleArn": "arn:aws:iam::321466487138:role/ecsTaskExecutionRole",
   "compatibilities": [
     "EXTERNAL",
@@ -84,7 +84,7 @@
   ],
   "networkMode": null,
   "runtimePlatform": null,
-  "cpu": "1024",
+  "cpu": null,
   "revision": 4,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
