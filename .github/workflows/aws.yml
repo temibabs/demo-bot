@@ -60,7 +60,6 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     environment: staging
-    needs: build
 
     steps:
     - name: Checkout
