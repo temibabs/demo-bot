@@ -1,5 +1,3 @@
-version: "2.0"
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: false
@@ -15,9 +13,11 @@ slots:
   upper_price:
     type: text
     influence_conversation: true
+    mappings: []
   brand:
     type: list
     influence_conversation: true
+    mappings: []
   purpose:
     type: categorical
     values:
@@ -25,6 +25,7 @@ slots:
       - productivity
       - gaming
     influence_conversation: true
+    mappings: []
 responses:
   utter_greet:
     - text: Hi, I'm wolf-bot. I am here to help you pick an ideal laptop.
