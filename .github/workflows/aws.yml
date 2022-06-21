@@ -9,9 +9,9 @@ env:
   AWS_REGION: eu-west-1
   ECR_REPOSITORY: temi
   ECS_SERVICE: demo-bot-service
-  ECS_CLUSTER: staging
+  ECS_CLUSTER: bot-cluster
   ECS_TASK_DEFINITION: task-definition.json
-  CONTAINER_NAME: demo-bot-container
+  CONTAINER_NAME: db-container
   IMAGE_URL: 321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi:f922a34d619e47a1bdddae619c202826429c3236
 
 permissions:

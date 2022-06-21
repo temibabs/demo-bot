@@ -7,7 +7,13 @@
       "environmentFiles": null,
       "logConfiguration": null,
       "entryPoint": null,
-      "portMappings": [],
+      "portMappings": [
+        {
+          "hostPort": 5000,
+          "protocol": "tcp",
+          "containerPort": 5000
+        }
+      ],
       "command": null,
       "linuxParameters": null,
       "cpu": 0,
@@ -19,8 +25,8 @@
       "workingDirectory": null,
       "secrets": null,
       "dockerSecurityOptions": null,
-      "memory": 2048,
-      "memoryReservation": 1024,
+      "memory": 4096,
+      "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
       "image": "321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi:f922a34d619e47a1bdddae619c202826429c3236",
@@ -40,7 +46,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "demo-bot-container"
+      "name": "db-container"
     }
   ],
   "placementConstraints": [],
@@ -50,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:321466487138:task-definition/demo-bot-td:4",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:321466487138:task-definition/demo-bot-td:9",
   "family": "demo-bot-td",
   "requiresAttributes": [
     {
@@ -85,7 +91,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 4,
+  "revision": 9,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
