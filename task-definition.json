@@ -7,7 +7,13 @@
       "environmentFiles": null,
       "logConfiguration": null,
       "entryPoint": null,
-      "portMappings": [],
+      "portMappings": [
+        {
+          "hostPort": 5005,
+          "protocol": "tcp",
+          "containerPort": 5005
+        }
+      ],
       "command": null,
       "linuxParameters": null,
       "cpu": 0,
@@ -23,7 +29,7 @@
       "memoryReservation": 128,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi",
+      "image": "321466487138.dkr.ecr.eu-west-1.amazonaws.com/temi:f922a34d619e47a1bdddae619c202826429c3236",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,7 +56,7 @@
     "EXTERNAL",
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:321466487138:task-definition/demo-bot-task-definition:1",
+  "taskDefinitionArn": "arn:aws:ecs:eu-west-1:321466487138:task-definition/demo-bot-task-definition:5",
   "family": "demo-bot-task-definition",
   "requiresAttributes": [
     {
@@ -85,7 +91,7 @@
   "networkMode": null,
   "runtimePlatform": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
